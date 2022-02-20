@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Store | Products</title>
+    <link rel="stylesheet" href="https://lightui.netlify.app/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+    <nav class="navbar">
+
+
+        <div class="flex-center">
+            <ion-icon class="ham-menu" name="menu-outline"></ion-icon>
+            <h1 class="brand-name">N-Store</h1>
+        </div>
+        <div class="search-container flex-center">
+            <input type="search" name="searchbar" class="searchbar" placeholder="🔎 Search">
+            <button class="btn-search">
+                   <ion-icon name="search-outline"></ion-icon>
+               </button>
+        </div>
+
+        <div class="nav-pill flex-center">
+
+            <button class="badge">
+                   <ion-icon class="icon" name="notifications"></ion-icon>
+                   <span class="badge-notify">9+</span>
+               </button>
+
+            <button class="badge">
+                   <ion-icon class="icon" name="bag"></ion-icon>
+                   <span class="badge-notify">10</span>
+               </button>
+            <a class="btn btn-primary">Login</a>
+
+        </div>
+
+    </nav>
+    <main class="flex-row">
+        <div class="filterList">
+            <div class="flex-space-between padding-v-l">
+                <h2>Filters</h2>
+                <a href="#">Clear</a>
+            </div>
+            <div class="padding-v-l">
+                <h2 class="filter-head">Price</h2>
+                <input type="range" id="price-filter" name="vol" min="200" max="50000" step="2000">
+                <p>Price: <span id="price-range"></span></p>
+            </div>
+            <div class="padding-v-l">
+                <h2 class="filter-head">Category</h2>
+                <div class="category-pill padding-s">
+                    <input type="checkbox" name="genin" id="genin" class="prod-category">
+                    <label for="genin"> Genin</label>
+                </div>
+                <div class="category-pill padding-s">
+                    <input type="checkbox" name="genin" id="genin" class="prod-category">
+                    <label for="genin"> Chunin</label>
+                </div>
+                <div class="category-pill padding-s">
+                    <input type="checkbox" name="genin" id="genin" class="prod-category">
+                    <label for="genin"> Saanin</label>
+                </div>
+                <div class="category-pill padding-s">
+                    <input type="checkbox" name="genin" id="genin" class="prod-category">
+                    <label for="genin"> Shinobi</label>
+                </div>
+
+            </div>
+            <div class="padding-v-l">
+                <h2 class="filter-head">Rating</h2>
+                <div class="category-pill padding-s">
+                    <input type="radio" name="genin" id="genin" class="prod-category">
+                    <label for="genin"> 4 Star & Above</label>
+                </div>
+                <div class="category-pill padding-s">
+                    <input type="radio" name="genin" id="genin" class="prod-category">
+                    <label for="genin"> 3 Star & Above</label>
+                </div>
+                <div class="category-pill padding-s">
+                    <input type="radio" name="genin" id="genin" class="prod-category">
+                    <label for="genin"> 2 Star & Above</label>
+                </div>
+                <div class="category-pill padding-s">
+                    <input type="radio" name="genin" id="genin" class="prod-category">
+                    <label for="genin"> 1 Star & Above</label>
+                </div>
+            </div>
+            <div class="padding-v-l">
+                <h2 class="filter-head">Sort By</h2>
+                <div class="category-pill padding-s">
+                    <input type="radio" name="genin" id="genin" class="prod-category">
+                    <label for="genin"> Price low to high</label>
+                </div>
+                <div class="category-pill padding-s">
+                    <input type="radio" name="genin" id="genin" class="prod-category">
+                    <label for="genin"> Price high to Low</label>
+                </div>
+
+            </div>
+        </div>
+        <div class="main-content padding-l">
+            <h2 class="filter-head padding-l">Products List</h2>
+            <div class="products flex-center">
+                <div class="ecom-card">
+                    <img class="ecom-img" src="/Assets/Images/double-Sword.jfif" alt="suit">
+                    <h1 class="prod-title padding-m">Katana</h1>
+                    <p class="seller padding-h-xl">Sold by Musashi</p>
+                    <div class="ecom-price padding-l">
+                        <span class=" sell-price">$400</span>
+                        <span class="strike-price">$600</span>
+                        <span class="ecom-disc">Save 20%</span>
+                    </div>
+
+                    <div class="action-btns flex-center">
+                        <button class="card-btn btn-primary">
+             <ion-icon name="cart-outline"></ion-icon>Add to cart
+                </button>
+                        <button class="card-btn btn-secondary">Add to Wishlist <ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
+                    </div>
+
+                </div>
+                <div class="ecom-card">
+                    <img class="ecom-img" src="/Assets/Images/double-Sword.jfif" alt="suit">
+                    <h1 class="prod-title padding-m">Katana</h1>
+                    <p class="seller padding-h-xl">Sold by Musashi</p>
+                    <div class="ecom-price padding-l">
+                        <span class=" sell-price">$400</span>
+                        <span class="strike-price">$600</span>
+                        <span class="ecom-disc">Save 20%</span>
+                    </div>
+
+                    <div class="action-btns flex-center">
+                        <button class="card-btn btn-primary">
+             <ion-icon name="cart-outline"></ion-icon>Add to cart
+                </button>
+                        <button class="card-btn btn-secondary">Add to Wishlist <ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
+                    </div>
+
+                </div>
+                <div class="ecom-card">
+                    <img class="ecom-img" src="/Assets/Images/double-Sword.jfif" alt="suit">
+                    <h1 class="prod-title padding-m">Katana</h1>
+                    <p class="seller padding-h-xl">Sold by Musashi</p>
+                    <div class="ecom-price padding-l">
+                        <span class=" sell-price">$400</span>
+                        <span class="strike-price">$600</span>
+                        <span class="ecom-disc">Save 20%</span>
+                    </div>
+
+                    <div class="action-btns flex-center">
+                        <button class="card-btn btn-primary">
+             <ion-icon name="cart-outline"></ion-icon>Add to cart
+                </button>
+                        <button class="card-btn btn-secondary">Add to Wishlist <ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
+                    </div>
+
+                </div>
+                <div class="ecom-card">
+                    <img class="ecom-img" src="/Assets/Images/double-Sword.jfif" alt="suit">
+                    <h1 class="prod-title padding-m">Katana</h1>
+                    <p class="seller padding-h-xl">Sold by Musashi</p>
+                    <div class="ecom-price padding-l">
+                        <span class=" sell-price">$400</span>
+                        <span class="strike-price">$600</span>
+                        <span class="ecom-disc">Save 20%</span>
+                    </div>
+
+                    <div class="action-btns flex-center">
+                        <button class="card-btn btn-primary">
+             <ion-icon name="cart-outline"></ion-icon>Add to cart
+                </button>
+                        <button class="card-btn btn-secondary">Add to Wishlist <ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
+                    </div>
+
+                </div>
+                <div class="ecom-card">
+                    <img class="ecom-img" src="/Assets/Images/double-Sword.jfif" alt="suit">
+                    <h1 class="prod-title padding-m">Katana</h1>
+                    <p class="seller padding-h-xl">Sold by Musashi</p>
+                    <div class="ecom-price padding-l">
+                        <span class=" sell-price">$400</span>
+                        <span class="strike-price">$600</span>
+                        <span class="ecom-disc">Save 20%</span>
+                    </div>
+
+                    <div class="action-btns flex-center">
+                        <button class="card-btn btn-primary">
+             <ion-icon name="cart-outline"></ion-icon>Add to cart
+                </button>
+                        <button class="card-btn btn-secondary">Add to Wishlist <ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
+                    </div>
+
+                </div>
+                <div class="ecom-card">
+                    <img class="ecom-img" src="/Assets/Images/double-Sword.jfif" alt="suit">
+                    <h1 class="prod-title padding-m">Katana</h1>
+                    <p class="seller padding-h-xl">Sold by Musashi</p>
+                    <div class="ecom-price padding-l">
+                        <span class=" sell-price">$400</span>
+                        <span class="strike-price">$600</span>
+                        <span class="ecom-disc">Save 20%</span>
+                    </div>
+
+                    <div class="action-btns flex-center">
+                        <button class="card-btn btn-primary">
+             <ion-icon name="cart-outline"></ion-icon>Add to cart
+                </button>
+                        <button class="card-btn btn-secondary">Add to Wishlist <ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div class="footer flex-space-even">
+        <div class="countries">
+            <h2>Countries</h2>
+            <ul>
+                <li><a class="footer-link" href="#">India</a></li>
+                <li><a class="footer-link" href="#">Japan</a></li>
+                <li><a class="footer-link" href="#">China</a></li>
+                <li><a class="footer-link" href="#">Singapore</a></li>
+                <li><a class="footer-link" href="#">United States</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h2>Links</h2>
+            <ul>
+                <li><a class="footer-link" href="/index.html">Home</a></li>
+                <li><a class="footer-link" href="#">Cart</a></li>
+                <li><a class="footer-link" href="#">WishList</a></li>
+            </ul>
+        </div>
+
+        <div class="socials">
+            <h2>Socials</h2>
+            <ul>
+                <li>
+                    <ion-icon name="logo-github"></ion-icon><a class="footer-link" href="https://github.com/MaruthiPothuganti/" target="_blank">@MaruthiPothuganti</a></li>
+                <li>
+                    <ion-icon name="logo-linkedin"></ion-icon><a class="footer-link" href="https://www.linkedin.com/in/maruthi-pothuganti-3a8575179/" target="_blank">@maruthipothuganti</a></li>
+                <li>
+                    <ion-icon name="logo-twitter"></ion-icon><a class="footer-link" href="https://twitter.com/maruthithedev" target="_blank">@maruthithedev</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="product.js"></script>
+</body>
+
+</html>
