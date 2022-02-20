@@ -172,3 +172,11 @@ body {
         font-size: 2rem;
     }
 }
+
+@media (max-width:992px) {
+    .ham-menu {
+        display: initial;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+}
