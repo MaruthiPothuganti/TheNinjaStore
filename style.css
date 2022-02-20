@@ -4,7 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
     background-color: var( --bg-color);
-    color: white;
+    color: var( --secondary-white);
 }
 
 :root {
@@ -18,7 +18,7 @@ body {
 
 .navbar {
     background-color: var( --bg-color);
-    color: white;
+    color: var( --secondary-white);
     height: 10vh;
     position: sticky;
     top: 0;
