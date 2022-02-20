@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: var( --bg-color);
+    color: white;
+}
+
+:root {
+    --bg-color: #1a202c;
+    --bg-color: #1f2937;
+}
+
+.ham-menu {
+    display: none;
+}
+
+.navbar {
+    background-color: var( --bg-color);
+    color: white;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.brand-name {
+    font-size: xx-large;
+}
+
+.brand-img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.btn {
+    width: 100px;
+    text-align: center;
+    font-family: inherit;
+}
+
+.hero-container {
+    padding: 2rem;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background: url(/Assets/Images/Hero.jpg);
+}
+
+.hero-heading {
+    font-size: 5rem;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+    height: 100%;
+    width: 50%;
+}
+
+.hero-image {
+    margin-left: 4rem;
+    height: 100%;
+}
+
+.category-section {
+    padding: 4rem;
+}
+
+.category-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.card {
+    cursor: pointer;
+    position: relative;
+}
+
+.txt-overlay {
+    color: var(--prime-blue);
+    text-align: center;
+}
+
+.rank-img {
+    width: 15rem;
+}
+
+.carousel {
+    position: relative;
+}
+
+.caraousel-img {
+    width: 90%;
+    height: 90%;
+}
+
+.caraousel-btn {
+    position: absolute;
+    height: 100%;
+    background: transparent;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.carousel-txtoverlay {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    font-size: xx-large;
+    color: var(--prime-blue);
+    background-color: #1a202c;
+}
+
+.footer {
+    height: 40vh;
+    font-size: small;
+    background-color: var(--secondary-bg-color);
+    color: var(--text-color-2);
+    padding: var(--size-11);
+    line-height: 2.5;
+    bottom: 0;
+}
+
+.countries {
+    width: 30%;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.footer-link {
+    text-transform: unset;
+    color: var( --secondary-white);
+}
+
+.footer-link:hover {
+    border-bottom: 2px solid var(--prime-blue);
+}
+
+@media (max-width:500px) {
+    html {
+        font-size: 50%;
+    }
+    .countries {
+        display: none;
+    }
+    .ham-menu {
+        display: initial;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+}
