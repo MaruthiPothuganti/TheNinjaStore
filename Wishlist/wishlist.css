@@ -1,0 +1,31 @@
+@import url("/style.css");
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.action-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.card-btn {
+    width: 20rem;
+}
+
+.ecom-card {
+    width: 25rem;
+    /* height: 45rem; */
+}
