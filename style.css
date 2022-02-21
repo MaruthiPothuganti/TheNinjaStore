@@ -144,7 +144,6 @@ body {
     color: var(--text-color-2);
     padding: var(--size-11);
     line-height: 2.5;
-    bottom: 0;
 }
 
 .countries {
