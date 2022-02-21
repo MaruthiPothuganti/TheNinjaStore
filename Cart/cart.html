@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Store | Wishlist</title>
+    <link rel="stylesheet" href="https://lightui.netlify.app/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <nav class="navbar">
+
+
+        <div class="flex-center">
+            <ion-icon class="ham-menu" name="menu-outline"></ion-icon>
+            <h1 class="brand-name">N-Store</h1>
+        </div>
+        <div class="search-container flex-center">
+            <input type="search" name="searchbar" class="searchbar" placeholder="🔎 Search">
+            <button class="btn-search">
+                   <ion-icon name="search-outline"></ion-icon>
+               </button>
+        </div>
+
+        <div class="nav-pill flex-center">
+            <a href="">
+                <button class="badge">
+                   <ion-icon class="icon" name="notifications"></ion-icon>
+                   <span class="badge-notify">9+</span>
+               </button>
+            </a>
+
+            <a href="#">
+                <button class="badge">
+                   <ion-icon class="icon" name="bag"></ion-icon>
+                   <span class="badge-notify">10</span>
+               </button>
+
+            </a>
+            <a class="btn btn-primary">Login</a>
+        </div>
+
+    </nav>
+    <section class="address-container">
+        <h2 class="card-heading flex-center padding-l">Address</h2>
+        <p class="padding-h-l">Check-out Address:-</p>
+        <div class="padding-m flex-space-between">
+            <h2> 1600 Pennsylvania Avenue NW Washington, D.C. 20500 U.S.
+            </h2>
+            <span><a class="btn-address-add" href="#">+Add New</a></span>
+        </div>
+    </section>
+
+    <section class="wishlist padding-l">
+
+        <main class="flex-center">
+            <div class="card-container">
+
+
+                <div class="ecom-h-card">
+                    <div>
+                        <img class="ecom-h-img" src="/Assets/Images/fuma-shuriken.webp" alt="katana">
+                    </div>
+                    <div class="card-content padding-l">
+                        <h2 class="card-heading">Fuma shuriken</h2>
+                        <h3>Sold by Musshano</h3>
+                        <span class="sell-price">$600</span> <span class="strike-price">$400</span>
+                        <div class="padding-v-l">
+                            <span class="ecom-disc ">20%off</span>
+                        </div>
+                        <div class="quant-count flex">
+
+
+                            <button class="btn-change">-</button>
+                            <input type="text" class="ecom-quant" value="1">
+                            <button class="btn-change">+</button>
+                        </div>
+                        <div class="padding-s flex-column">
+                            <button class="card-btn btn-primary">Move to Cart</button>
+                            <button class="card-btn btn-secondary">Remove from Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ecom-h-card">
+                    <div>
+                        <img class="ecom-h-img" src="/Assets/Images/fuma-shuriken.webp" alt="katana">
+                    </div>
+                    <div class="card-content padding-l">
+                        <h2 class="card-heading">Fuma shuriken</h2>
+                        <h3>Sold by Musshano</h3>
+                        <span class="sell-price">$600</span> <span class="strike-price">$400</span>
+                        <div class="padding-v-l">
+                            <span class="ecom-disc ">20%off</span>
+                        </div>
+                        <div class="quant-count flex">
+
+
+                            <button class="btn-change">-</button>
+                            <input type="text" class="ecom-quant" value="1">
+                            <button class="btn-change">+</button>
+                        </div>
+                        <div class="padding-s flex-column">
+                            <button class="card-btn btn-primary">Move to Cart</button>
+                            <button class="card-btn btn-secondary">Remove from Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+        <section class="checkout-container">
+            <div>
+                <h2 class="card-heading">Price details</h2>
+                <div class="divider margin-v-l"></div>
+                <div class="flex-space-between">
+                    <p class="txt-checkout">Price(2 items)</p>
+                    <p class="txt-checkout">$1200</p>
+                </div>
+                <div class="flex-space-between">
+                    <p class="txt-checkout">Discount</p>
+                    <p class="txt-checkout">-$400</p>
+                </div>
+                <div class="flex-space-between">
+                    <p class="txt-checkout">Delivery Charges</p>
+                    <p class="txt-checkout">+$499</p>
+                </div>
+                <div class="divider margin-v-l"></div>
+                <div class="flex-space-between">
+                    <p class="txt-checkout">Total</p>
+                    <p class="txt-checkout">$1700</p>
+                </div>
+                <div class="divider margin-v-l"></div>
+                <div class="flex-space-between">
+                    <p class="txt-checkout">You save $400 on this Order</p>
+
+                </div>
+                <div class="txt-center">
+                    <button class="btn btn-primary cta-btn">Place Your Order</button>
+
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+    </section>
+
+    <div class="footer flex-space-even">
+        <div class="countries">
+            <h2>Countries</h2>
+            <ul>
+                <li><a class="footer-link" href="#">India</a></li>
+                <li><a class="footer-link" href="#">Japan</a></li>
+                <li><a class="footer-link" href="#">China</a></li>
+                <li><a class="footer-link" href="#">Singapore</a></li>
+                <li><a class="footer-link" href="#">United States</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h2>Links</h2>
+            <ul>
+                <li><a class="footer-link" href="/index.html">Home</a></li>
+                <li><a class="footer-link" href="/Cart/cart.html">Cart</a></li>
+                <li><a class="footer-link" href="https://github.com/MaruthiPothuganti/LightUI">WishList</a></li>
+            </ul>
+        </div>
+
+        <div class="socials">
+            <h2>Socials</h2>
+            <ul>
+                <li>
+                    <ion-icon name="logo-github"></ion-icon><a class="footer-link" href="https://github.com/MaruthiPothuganti/" target="_blank">@MaruthiPothuganti</a></li>
+                <li>
+                    <ion-icon name="logo-linkedin"></ion-icon><a class="footer-link" href="https://www.linkedin.com/in/maruthi-pothuganti-3a8575179/" target="_blank">@maruthipothuganti</a></li>
+                <li>
+                    <ion-icon name="logo-twitter"></ion-icon><a class="footer-link" href="https://twitter.com/maruthithedev" target="_blank">@maruthithedev</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
