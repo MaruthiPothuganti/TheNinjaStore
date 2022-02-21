@@ -1,0 +1,100 @@
+@import url("/style.css");
+.address-container {
+    border: 1px solid;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.btn-address-add {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ecom-h-card {
+    display: flex;
+    background-color: var(--accent-color);
+    border-radius: 5px;
+}
+
+.ecom-h-img {
+    width: 27rem;
+    height: 100%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.card-heading {
+    font-size: 3rem;
+}
+
+.card-btn {
+    width: 4rem;
+    height: 1rem;
+}
+
+.ecom-quant {
+    width: 30px;
+}
+
+.quant-count {
+    text-align: center;
+}
+
+.btn-change {
+    width: 2rem;
+}
+
+.card-btn {
+    text-align: center;
+    height: 5rem;
+    width: 25rem;
+}
+
+.flex-column {
+    gap: 5px;
+}
+
+.wishlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.checkout-container {
+    border: 1px solid black;
+    padding: 2rem;
+    width: 400px;
+    margin: 2rem;
+}
+
+.divider {
+    border: 1px solid black;
+}
+
+.txt-checkout {
+    font-size: 2rem;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.cta-btn {
+    margin: 2rem;
+    width: 25rem;
+}
+
+@media (max-width:640px) {
+    html {
+        font-size: 40%;
+    }
+}
