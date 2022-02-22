@@ -41,7 +41,17 @@
                                 <div class="form-control ">
                                     <label for="">Password</label>
                                     <input type="password" id="password" placeholder="password">
+                                    <ion-icon class="pwd-display" name="eye-outline"></ion-icon>
                                     <small></small>
+                                </div>
+                                <div class="flex-space-between padding-v-l">
+                                    <span>
+                                        <input type="checkbox" name="RememberMe" id="rememberMe">
+                                        <label for="rememberMe" class="create-acc-hlink"> Remember me</label>
+                                    </span>
+                                    <span>
+                                        <a href="#" class="create-acc-hlink">Forgot your Password?</a>
+                                    </span>
                                 </div>
                                 <div class="padding-v-l">
                                     <button class="btn btn-primary" id="submitBtn">Login</button>
@@ -56,6 +66,7 @@
             </div>
         </div>
     </div>
+    <script src="toggle.js"></script>
 </body>
 
 </html>

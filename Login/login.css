@@ -24,9 +24,27 @@
     width: 15rem;
 }
 
+.hero-btn {
+    width: 50%;
+}
+
+.form-control {
+    position: relative;
+}
+
+.pwd-display,
+.pwd-display2 {
+    color: var(--text-color);
+    position: absolute;
+    top: 55%;
+    right: 1rem;
+}
+
 @media (max-width:992px) {
     .ninja-img {
         display: none;
+        top: 0;
+        right: 10;
     }
 }
 
