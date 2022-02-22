@@ -20,6 +20,10 @@
     color: var(--secondary-white);
 }
 
+.form-container button {
+    width: 15rem;
+}
+
 @media (max-width:992px) {
     .ninja-img {
         display: none;
