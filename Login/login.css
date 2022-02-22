@@ -1,0 +1,36 @@
+@import url("/style.css");
+.hero-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    background-color: var( --secondary-bg-color);
+    padding: 10rem;
+    border-radius: 1rem;
+}
+
+.herostore-title {
+    font-size: var(--size-12);
+    color: var(--secondary-white);
+}
+
+@media (max-width:992px) {
+    .ninja-img {
+        display: none;
+    }
+}
+
+@media (max-width:480px) {
+    .form-container {
+        font-size: 40%;
+    }
+    .create-acc-hlink {
+        font-size: var( --size-6);
+    }
+}
