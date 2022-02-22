@@ -16,7 +16,7 @@
 }
 
 .herostore-title {
-    font-size: xx-large;
+    font-size: var(--size-12);
     color: var(--secondary-white);
 }
 
@@ -31,6 +31,6 @@
         font-size: 40%;
     }
     .create-acc-hlink {
-        font-size: small;
+        font-size: var( --size-6);
     }
 }
