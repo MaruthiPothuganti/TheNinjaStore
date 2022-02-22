@@ -28,7 +28,16 @@
 
 .ecom-card {
     width: 25rem;
-    height: 45rem;
+    height: 47rem;
+}
+
+.card-btn {
+    width: 90%;
+}
+
+.action-btns {
+    gap: 0.5rem;
+    padding: 0rem;
 }
 
 @media (max-width:500px) {

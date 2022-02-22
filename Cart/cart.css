@@ -1,6 +1,6 @@
 @import url("/style.css");
 .address-container {
-    border: 1px solid;
+    border: 1px solid var(--prime-blue);
     width: 80%;
     margin: 0 auto;
     height: auto;
@@ -70,14 +70,14 @@
 }
 
 .checkout-container {
-    border: 1px solid black;
+    border: 1px solid var(--prime-blue);
+    width: 50rem;
     padding: 2rem;
-    width: 400px;
     margin: 2rem;
 }
 
 .divider {
-    border: 1px solid black;
+    border: 1px solid var(--prime-blue);
 }
 
 .txt-checkout {
