@@ -28,7 +28,20 @@
 
 .ecom-card {
     width: 25rem;
-    height: 45rem;
+    height: 47rem;
+}
+
+.card-btn {
+    width: 90%;
+}
+
+.action-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0rem;
 }
 
 @media (max-width:500px) {

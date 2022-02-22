@@ -22,6 +22,11 @@ body {
     display: none;
 }
 
+.herostore-title {
+    font-size: var(--size-12);
+    color: var(--secondary-white);
+}
+
 .navbar {
     background-color: var( --bg-color);
     color: var( --secondary-white);
@@ -78,6 +83,13 @@ body {
     height: 100%;
 }
 
+.hero-btn {
+    width: 15rem;
+    height: 5rem;
+    font-size: large;
+    margin: 2rem 0;
+}
+
 .category-section {
     padding: 4rem;
 }
@@ -118,6 +130,9 @@ body {
     position: absolute;
     height: 100%;
     background: transparent;
+    color: var(--secondary-white);
+    cursor: pointer;
+    padding: 2rem;
 }
 
 .left {
@@ -144,6 +159,7 @@ body {
     color: var(--text-color-2);
     padding: var(--size-11);
     line-height: 2.5;
+    border-top: 1px solid var(--prime-blue);
 }
 
 .countries {
@@ -162,6 +178,10 @@ body {
 
 .footer-link:hover {
     border-bottom: 2px solid var(--prime-blue);
+}
+
+.prod-hyperlink {
+    color: var(--secondary-white);
 }
 
 @media (max-width:500px) {

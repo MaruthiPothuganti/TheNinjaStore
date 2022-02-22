@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>N-Store | Wishlist</title>
+    <title>N-Store | Cart</title>
     <link rel="stylesheet" href="https://lightui.netlify.app/style.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -18,7 +18,11 @@
     <nav class="navbar">
         <div class="flex-center">
             <ion-icon class="ham-menu" name="menu-outline"></ion-icon>
-            <h1 class="brand-name">N-Store</h1>
+            <div>
+                <a href="/index.html">
+                    <h1 class="herostore-title">N-Store</h1>
+                </a>
+            </div>
         </div>
         <div class="search-container flex-center">
             <input type="search" name="searchbar" class="searchbar" placeholder="🔎 Search">
@@ -42,7 +46,7 @@
                </button>
 
             </a>
-            <a class="btn btn-primary">LogOut</a>
+            <a class="btn btn-primary" href="/index.html">LogOut</a>
         </div>
 
     </nav>
@@ -81,8 +85,8 @@
                             <button class="btn-change">+</button>
                         </div>
                         <div class="padding-s flex-column">
-                            <button class="card-btn btn-primary">Move to Cart</button>
-                            <button class="card-btn btn-secondary">Remove from Wishlist</button>
+                            <button class="card-btn btn-primary">Remove from Cart</button>
+                            <button class="card-btn btn-secondary">Move to Wishlist</button>
                         </div>
                     </div>
                 </div>
@@ -105,8 +109,8 @@
                             <button class="btn-change">+</button>
                         </div>
                         <div class="padding-s flex-column">
-                            <button class="card-btn btn-primary">Move to Cart</button>
-                            <button class="card-btn btn-secondary">Remove from Wishlist</button>
+                            <button class="card-btn btn-primary">Remove from Cart</button>
+                            <button class="card-btn btn-secondary">Move to Wishlist</button>
                         </div>
                     </div>
                 </div>
@@ -167,8 +171,8 @@
             <h2>Links</h2>
             <ul>
                 <li><a class="footer-link" href="/index.html">Home</a></li>
-                <li><a class="footer-link" href="/Cart/cart.html">Cart</a></li>
-                <li><a class="footer-link" href="https://github.com/MaruthiPothuganti/LightUI">WishList</a></li>
+                <li><a class="footer-link" href="#">Cart</a></li>
+                <li><a class="footer-link" href="/Wishlist/wishlist.html">WishList</a></li>
             </ul>
         </div>
 
