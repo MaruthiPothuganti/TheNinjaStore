@@ -71,8 +71,8 @@
 
 .checkout-container {
     border: 1px solid var(--prime-blue);
+    width: 50rem;
     padding: 2rem;
-    width: 400px;
     margin: 2rem;
 }
 
